@@ -1,0 +1,36 @@
+.wrapper__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A65B5;
+    height: 40px;
+}
+
+.wrapper__nav-nav {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__nav-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    transition: .2s;
+}
+
+.wrapper__nav a:hover {
+    background-color: #FCD92D;
+    border-radius: 5px;
+    color: #000;
+    transition: .2s;
+}
+
+.wrapper__nav-nav button {
+    cursor: pointer;
+    background-color: #0773d1;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}

@@ -1,0 +1,41 @@
+.wrapper__form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.wrapper__form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.wrapper__form form input {
+    border: none;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    margin: 5px;
+    outline: none;
+}
+
+.wrapper__form button {
+    margin-top: 50px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #0A65B5;
+    cursor: pointer;
+    color: #fff;
+}
+
+.wrapper__form-message {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid #ccc;
+    padding: 15px;
+    display: none;
+}

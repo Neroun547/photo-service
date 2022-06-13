@@ -1,0 +1,22 @@
+.wrapper__input-find-photo {
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1200px;
+}
+
+.wrapper__input-find-photo input {
+    width: 79%;
+}
+
+.wrapper__input-find-photo button {
+    width: 20%;
+    cursor: pointer;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.logo-random-photo {
+    margin-top: 50px;
+    text-align: center;
+}

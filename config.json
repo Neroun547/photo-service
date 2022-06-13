@@ -1,0 +1,11 @@
+{
+    "secretJwt": "sdgjdfjkgjdfgj",
+    "appPort": 8080,
+    "hostDb": "localhost",
+    "passwordDb": "MyPasswd",
+    "userDb": "gosha",
+    "database": "photoGalary",
+    "secretSha256": "sdfmshdf123",
+    "synchronizeDb": true,
+    "autoLoadEntitiesDb": true
+}
