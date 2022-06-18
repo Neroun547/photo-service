@@ -5,11 +5,13 @@ import reportWebVitals from './reportWebVitals';
 import "./style/normalize.css";
 import "./style/index.css";
 import { Nav } from "./components/nav/Nav";
+import { Footer } from './components/footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Nav/>
+    <Footer/>
   </React.StrictMode>
 );
 

@@ -1,7 +1,9 @@
+/upload
+
 # compiled output
 /dist
 /node_modules
-/upload
+
 
 # Logs
 logs

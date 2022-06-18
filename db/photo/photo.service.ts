@@ -16,7 +16,7 @@ export class PhotoServiceDB {
     async getPhotoId(skip: number, take: number) {
         return await this.photoRepository.find({ skip: skip, take: take });  
     }
-    async getNameFilePhoto(_id: number) {
+    async getInfoPhotoById(_id: number) {
         return await this.photoRepository.findOne({ where: { _id: _id } });
     }
     async deletePhotoById(_id: number) {

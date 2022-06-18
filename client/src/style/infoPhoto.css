@@ -1,0 +1,29 @@
+.wrapper__photo-info-item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.wrapper__photo-info-item img {
+    display: block;
+    max-width: 800px;
+}
+
+.wrapper__photo-info-item-author-block {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.wrapper__photo-info-item-author-block button {
+    background-color: #0A65B5;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+}

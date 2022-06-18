@@ -11,7 +11,6 @@ export class UserServiceDb {
     async findUserByUsername(username: string) {
         return await this.repository.findOne({ where: { username: username } });
     }
-
     async findUserByUsernameOrEmail(email: string, username: string) {
         return await this.repository.createQueryBuilder()
         .select("user")
@@ -19,8 +18,10 @@ export class UserServiceDb {
         .where("user.username = :username OR user.email = :email", { username: username, email: email })
         .getOne()
     }
-
     async createUser(user: IUser) {
         await this.repository.save(user);
+    }
+    async getUserById(_id: number) {
+        return await this.repository.findOne({ where: { _id: _id } });
     }
 }
